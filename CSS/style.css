@@ -1,0 +1,84 @@
+.med-box {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.med-box>h1 {
+    color: green;
+    transition: all 1s ease-in;
+}
+
+.med-box>h1:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+.med-box>p {
+    color: blue;
+    font-size: 25px;
+}
+
+
+/* Mobile Devices*/
+
+@media screen and (min-width:576px) {}
+
+@media screen and (min-width:768px) {}
+
+
+@media (max-width: 1400) {
+    /* Targets Large Desktops and below */
+}
+
+@media (max-width: 1200) {
+    /* Targets Laptops and below */
+}
+
+@media (max-width: 992) {
+    /* Targets Tablets and below */
+}
+
+/* Targets Small Portrait Phones exclusively */
+@media (max-width: 576) {
+    .med-box>h1 {
+        color: blue;
+        font-family: monospace;
+    }
+
+}
+
+/* Targets Mobile Screens and below */
+@media (min-width: 768) and (max-width:992) {}
+
+
+/* Animation */
+.ani-container {
+    height: 400px;
+    background-color: rgb(219, 245, 253);
+    box-shadow: inset 0 -50px 45px green;
+}
+
+
+.ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: radial-gradient(grey, blue);
+    animation: bounce 1s ease-in-out infinite;
+}
+
+
+@keyframes bounce {
+
+    0%{
+        transform: translateY(50px);
+    }
+
+    50%{
+        transform: translateY(300px);
+    }
+
+    100%{
+        transform: translateY(50px);
+    }
+}
