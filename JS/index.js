@@ -363,7 +363,73 @@ function printGoodStudentName(std1 = "Ameer Hamza", std2 = "Ayesha", std3 = "Mah
     // return "Han g 3no values mil gai han"
 }
 
-printGoodStudentName("Nirmal Qayyum ", "Zainab Mazhar", "Muhammad Umair")
+// printGoodStudentName("Nirmal Qayyum ", "Zainab Mazhar", "Muhammad Umair")
 console.log("===========================================")
 // console.log(printGoodStudentName("Nirmal Qayyum Baig", "Zainab Mazhar", "Muhammad Umair"))
-printGoodStudentName("Ali")
+// printGoodStudentName("Ali")
+
+
+
+// Function Types
+
+//Anonymous Function
+
+const anonymousFunc = function () {
+    console.log("Hello I am Anonymous Function")
+}
+
+anonymousFunc()
+
+// arrow function
+// =>
+
+// console.log(()=> "Hello I am Arrow Function")
+
+const arrowFunc = () => {
+    console.log("Hello I am Arrow Function")
+}
+
+// arrowFunc()
+
+
+
+// IIFE - Immediately Invoked Function Expression
+
+(
+    function () {
+        console.log("Hello I am IIFE Function")
+    }
+)()
+
+// Callback Function
+
+function parentFunc(cb) {
+    console.log("Hello I am Parent Function")
+    cb()
+}
+
+
+function childFunc() {
+    console.log("Hello I am Child Function")
+}
+
+
+parentFunc(childFunc)
+
+
+// Recursive Function
+
+function recursiveFunc(num) {
+    console.log("Hello I am Recursive Function", num)
+    // let total = 1
+    if (num == 0) {
+        console.log("Base case reached")
+        return 0
+    }
+    // total += 
+    // console.log(total, "Total")
+    return num * recursiveFunc(num - 1)
+}
+
+
+recursiveFunc(10)
