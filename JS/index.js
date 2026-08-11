@@ -433,3 +433,15 @@ function recursiveFunc(num) {
 
 
 recursiveFunc(10)
+
+// 1- Named function
+// 2- Anonymous function
+// 3- Arrow function
+// 4- IIFE
+// 5- Function expression
+// 6- Callback function
+// 7-Recursive function
+
+
+// DOM - Document Object Model
+
