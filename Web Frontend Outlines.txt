@@ -1,0 +1,791 @@
+HTML learning curve
+
+1. Introduction to HTML
+1.1 What is HTML and what is its puropse?
+1.2 Why to use HTML?
+
+2. Introduction to the HTML structure
+2.1 Basic HTML structure including html, head, title, and body tags.
+2.2 Meta tags for character set, viewport and other information.
+
+3. HTML basic elements
+3.1 paragraph tag, all heading tags, br, hr, div, span tags
+3.2 all font formatting tags (like b, i, q, u, strong, small tags)
+
+4. HTML lists
+4.1 ordered list and all its attributes
+4.2 unordered list and all its attributes
+
+5. HTML media elements
+5.1 image tag
+5.2 video tag
+5.3 audio tag
+
+6. HTML table
+6.1 table tag and its structure
+6.2 all subtags which are used in table tag
+
+7. HTML forms
+7.1 form tag and its attributes
+7.2 all input fields
+
+8. HTML links
+8.1 page to page routing
+8.2 routing inside the page
+
+9. HTML iframe
+9.1 iframing in html
+
+10 HTML5 semantic elements 
+10.1 article, header, nav, footer, main, aside, section and summary tag
+
+11 HTML global attributes
+11.1 title attribute
+11.2 dir attribute
+11.3 hidden attribute
+11.4 tabindex attribute
+11.5 contenteditable attribute
+11.6 lang attribute
+
+CSS Learning curve
+
+1. Introduction to CSS
+1.1 What is CSS.
+1.2 How does CSS work with HTML.
+1.3 Why to use CSS
+
+2. Ways to implement CSS in HTML
+2.1 inline styling
+2.2 implementing using style tag
+2.3 linking the external CSS file with HTML
+
+3. CSS basic selectors
+3.1 element, id and class selectors
+
+4. Box model in CSS
+4.1 height, width, min-height, max-height properties
+4.1 padding, margin, border properties
+4.2 box-sizing property
+
+5. background and color
+5.1 background-image, background-color, background-position, background-repeat, background-attachment
+5.2 color property including the color values
+5.3 background shorthand property
+
+6. typography
+6.1 font properties (font-size, font-weight, font-family, font-style)
+6.2 text properties (color, text-transform, text-align, text-decoration, line-height, letter-spacing, white-space, word-spacing, vertical align, text-shadow)
+
+7. positioning and layout
+7.1 position property (absolute, relative, fixed, static)
+7.2 display basic properties(block, inline-block, inline)
+7.3 float property
+
+8. borders and shadows
+8.1 border-width, border-color, border-style, border-spacing, border-collapse, border shorthand property, outline property including its shorthand
+8.2 box-shadow property, filter property
+
+9. CSS animations
+9.1 basic syntax for creating the animations
+9.2 applying the animations in css elements (animation shorthand property and other properties for animations)
+
+10. CSS variables and functions
+10.1 variable declaration and usage in css.
+10.2 built-in CSS functions (calc, min, max, clamp)
+
+11. CSS gradient
+11.1 linear gradient(minimum until mid level if not advance)
+11.2 radial gradient(minimum until mid level if not advance)
+
+12. CSS Flex
+12.1 justify-content, align-items, flex-basis, flex-direction, flex-wrap, align-content, flex shorthand property
+
+13. CSS Grid
+13.1 grid-template-rows, grid-template-columns, grid-template, grid-gap, align-items, justify-content, grid-auto-rows, grid-auto-columns, grid-auto-rows
+
+14. Responsive design in CSS
+
+
+JAVASCRIPT MEDIUM-LEVEL ROADMAP
+================================
+
+1. INTRODUCTION TO JAVASCRIPT
+   1.1 What is JavaScript?
+   1.2 JavaScript vs HTML vs CSS
+   1.3 Where JavaScript runs
+       - Browser
+       - Node.js
+   1.4 JavaScript Engine
+   1.5 ECMAScript vs JavaScript
+   1.6 How JavaScript code is executed
+   1.7 Strict Mode
+       - "use strict"
+
+
+2. DATA TYPES IN JAVASCRIPT
+   2.1 What are Data Types?
+   2.2 Primitive Data Types
+       - String
+       - Number
+       - Boolean
+       - Undefined
+       - Null
+       - BigInt
+       - Symbol
+   2.3 Non-Primitive Data Types
+       - Object
+       - Array
+       - Function
+   2.4 Primitive vs Reference Values
+   2.5 typeof Operator
+   2.6 instanceof Operator
+
+
+3. VARIABLES AND SCOPE
+   3.1 What is a Variable?
+   3.2 var
+   3.3 let
+   3.4 const
+   3.5 Declaration vs Initialization
+   3.6 Reassignment
+   3.7 Redeclaration
+   3.8 Variable Naming Rules
+   3.9 Global Scope
+   3.10 Function Scope
+   3.11 Block Scope
+   3.12 Lexical Scope
+   3.13 Scope Chain
+   3.14 Variable Shadowing
+
+
+4. OPERATORS
+   4.1 Arithmetic Operators
+       - +
+       - -
+       - *
+       - /
+       - %
+       - **
+       - ++
+       - --
+
+   4.2 Assignment Operators
+       - =
+       - +=
+       - -=
+       - *=
+       - /=
+       - %=
+       - **=
+
+   4.3 Comparison Operators
+       - >
+       - <
+       - >=
+       - <=
+       - ==
+       - ===
+       - !=
+       - !==
+
+   4.4 Logical Operators
+       - &&
+       - ||
+       - !
+
+   4.5 Ternary Operator
+       - condition ? true : false
+
+   4.6 Modern Operators
+       - ??
+       - ?.
+       - ??=
+       - ||= 
+       - &&=
+
+
+5. TYPE CONVERSION AND TYPE COERCION
+   5.1 What is Type Conversion?
+   5.2 Implicit Type Conversion
+   5.3 Explicit Type Conversion
+   5.4 String Conversion
+   5.5 Number Conversion
+   5.6 Boolean Conversion
+   5.7 Truthy Values
+   5.8 Falsy Values
+   5.9 Type Coercion
+   5.10 == vs ===
+   5.11 null vs undefined
+   5.12 NaN
+   5.13 Number.isNaN()
+   5.14 Object.is()
+
+
+6. CONTROL FLOW
+   6.1 if Statement
+   6.2 if...else
+   6.3 else if
+   6.4 Nested Conditions
+   6.5 switch Statement
+   6.6 case
+   6.7 break
+   6.8 default
+   6.9 Ternary Operator
+   6.10 Short-Circuit Evaluation
+
+
+7. LOOPS AND ITERATION
+   7.1 for Loop
+   7.2 while Loop
+   7.3 do...while Loop
+   7.4 for...in Loop
+   7.5 for...of Loop
+   7.6 break
+   7.7 continue
+   7.8 Nested Loops
+   7.9 Iterable
+   7.10 Iterator
+
+
+8. FUNCTIONS
+   8.1 What is a Function?
+   8.2 Function Declaration
+   8.3 Function Expression
+   8.4 Anonymous Function
+   8.5 Named Function Expression
+   8.6 Arrow Function
+   8.7 IIFE
+   8.8 Callback Function
+   8.9 Higher-Order Function
+   8.10 Recursive Function
+   8.11 Constructor Function
+   8.12 Generator Function
+   8.13 Function Invocation/Calling
+   8.14 Parameters
+   8.15 Arguments
+   8.16 Return Value
+   8.17 Default Parameters
+   8.18 Rest Parameters
+   8.19 Function Scope
+   8.20 First-Class Functions
+   8.21 Functions as Values
+   8.22 Functions as Arguments
+   8.23 Functions Returning Functions
+
+
+9. HOISTING, EXECUTION CONTEXT AND CLOSURES
+   9.1 Execution Context
+   9.2 Global Execution Context
+   9.3 Function Execution Context
+   9.4 Creation Phase
+   9.5 Execution Phase
+   9.6 Call Stack
+   9.7 Hoisting
+   9.8 var Hoisting
+   9.9 let and const Hoisting
+   9.10 Temporal Dead Zone
+   9.11 Function Hoisting
+   9.12 Lexical Environment
+   9.13 Scope Chain
+   9.14 Closures
+   9.15 Practical Uses of Closures
+
+
+10. THIS KEYWORD
+   10.1 What is this?
+   10.2 this in Global Context
+   10.3 this in Functions
+   10.4 this in Object Methods
+   10.5 this in Constructor Functions
+   10.6 this in Arrow Functions
+   10.7 call()
+   10.8 apply()
+   10.9 bind()
+   10.10 this in Classes
+
+
+11. STRINGS
+   11.1 Creating Strings
+   11.2 String Indexing
+   11.3 String Length
+   11.4 Escape Characters
+   11.5 Template Literals
+
+   11.6 String Methods
+       - toUpperCase()
+       - toLowerCase()
+       - trim()
+       - trimStart()
+       - trimEnd()
+       - includes()
+       - startsWith()
+       - endsWith()
+       - indexOf()
+       - lastIndexOf()
+       - slice()
+       - substring()
+       - replace()
+       - replaceAll()
+       - split()
+       - concat()
+       - charAt()
+       - charCodeAt()
+
+
+12. NUMBERS AND MATH
+   12.1 Number Type
+   12.2 Integers
+   12.3 Floating-Point Numbers
+   12.4 NaN
+   12.5 Infinity
+
+   12.6 Number Methods
+       - toString()
+       - toFixed()
+       - toPrecision()
+       - Number.isInteger()
+       - Number.isNaN()
+       - Number.isFinite()
+       - Number.parseInt()
+       - Number.parseFloat()
+
+   12.7 Math Methods
+       - Math.round()
+       - Math.floor()
+       - Math.ceil()
+       - Math.trunc()
+       - Math.random()
+       - Math.max()
+       - Math.min()
+       - Math.abs()
+       - Math.pow()
+       - Math.sqrt()
+
+
+13. ARRAYS
+   13.1 Creating Arrays
+   13.2 Array Indexing
+   13.3 Array Length
+   13.4 Updating Array Elements
+   13.5 Nested Arrays
+
+   13.6 Basic Array Methods
+       - push()
+       - pop()
+       - shift()
+       - unshift()
+       - slice()
+       - splice()
+       - concat()
+
+   13.7 Iteration Methods
+       - forEach()
+       - map()
+       - filter()
+       - find()
+       - findIndex()
+       - some()
+       - every()
+       - reduce()
+       - reduceRight()
+
+   13.8 Searching and Sorting
+       - includes()
+       - indexOf()
+       - lastIndexOf()
+       - sort()
+       - reverse()
+
+   13.9 Modern Array Methods
+       - flat()
+       - flatMap()
+       - at()
+       - Array.from()
+       - Array.isArray()
+
+
+14. OBJECTS
+   14.1 What is an Object?
+   14.2 Creating Objects
+   14.3 Object Properties
+   14.4 Object Methods
+   14.5 Dot Notation
+   14.6 Bracket Notation
+   14.7 Adding Properties
+   14.8 Updating Properties
+   14.9 Deleting Properties
+   14.10 Nested Objects
+
+   14.11 Object Methods
+       - Object.keys()
+       - Object.values()
+       - Object.entries()
+       - Object.assign()
+       - Object.create()
+       - Object.freeze()
+       - Object.seal()
+       - Object.hasOwn()
+
+   14.12 Object Property Shorthand
+   14.13 Computed Properties
+   14.14 Method Shorthand
+
+
+15. ES6+ FEATURES
+   15.1 let
+   15.2 const
+   15.3 Arrow Functions
+   15.4 Template Literals
+   15.5 Destructuring
+       - Array Destructuring
+       - Object Destructuring
+   15.6 Spread Operator
+   15.7 Rest Operator
+   15.8 Default Parameters
+   15.9 Enhanced Object Literals
+   15.10 Computed Properties
+   15.11 Optional Chaining
+   15.12 Nullish Coalescing
+   15.13 Logical Assignment Operators
+   15.14 Dynamic Imports
+
+
+16. DOM FUNDAMENTALS
+   16.1 What is DOM?
+   16.2 DOM Tree
+   16.3 Nodes
+   16.4 Elements
+   16.5 Document Object
+
+   16.6 Selecting Elements
+       - getElementById()
+       - getElementsByClassName()
+       - getElementsByTagName()
+       - querySelector()
+       - querySelectorAll()
+
+   16.7 Modifying Elements
+       - textContent
+       - innerHTML
+       - innerText
+
+   16.8 Attributes
+       - getAttribute()
+       - setAttribute()
+       - removeAttribute()
+
+   16.9 CSS and Classes
+       - style
+       - classList
+       - add()
+       - remove()
+       - toggle()
+       - contains()
+
+   16.10 Creating Elements
+       - createElement()
+       - append()
+       - appendChild()
+       - prepend()
+       - remove()
+       - replaceWith()
+
+
+17. EVENTS
+   17.1 What is an Event?
+   17.2 Event Listeners
+   17.3 addEventListener()
+
+   17.4 Mouse Events
+   17.5 Keyboard Events
+   17.6 Form Events
+   17.7 Input Events
+   17.8 Change Events
+   17.9 Submit Events
+
+   17.10 Event Object
+   17.11 target
+   17.12 currentTarget
+   17.13 preventDefault()
+   17.14 stopPropagation()
+
+   17.15 Event Bubbling
+   17.16 Event Capturing
+   17.17 Event Delegation
+
+
+18. BROWSER APIs
+   18.1 window
+   18.2 document
+   18.3 console
+   18.4 alert()
+   18.5 confirm()
+   18.6 prompt()
+
+   18.7 Timers
+       - setTimeout()
+       - setInterval()
+       - clearTimeout()
+       - clearInterval()
+
+   18.8 Web Storage
+       - Local Storage
+       - Session Storage
+
+   18.9 Cookies
+   18.10 URL API
+   18.11 URLSearchParams
+   18.12 History API
+   18.13 FormData
+
+
+19. ERROR HANDLING
+   19.1 What is an Error?
+   19.2 Syntax Errors
+   19.3 Runtime Errors
+   19.4 Logical Errors
+   19.5 try
+   19.6 catch
+   19.7 finally
+   19.8 throw
+   19.9 Custom Errors
+   19.10 Error Object
+   19.11 TypeError
+   19.12 ReferenceError
+   19.13 SyntaxError
+   19.14 Handling Asynchronous Errors
+
+
+20. ASYNCHRONOUS JAVASCRIPT
+   20.1 Synchronous JavaScript
+   20.2 Asynchronous JavaScript
+   20.3 Blocking vs Non-Blocking
+   20.4 Call Stack
+   20.5 Web APIs
+   20.6 Callback Queue
+   20.7 Microtask Queue
+   20.8 Event Loop
+
+   20.9 Callbacks
+   20.10 Callback Functions
+   20.11 Callback Hell
+
+
+21. PROMISES
+   21.1 What is a Promise?
+   21.2 Why Promises?
+   21.3 Promise States
+       - Pending
+       - Fulfilled
+       - Rejected
+
+   21.4 Creating a Promise
+       - resolve()
+       - reject()
+
+   21.5 Promise Methods
+       - then()
+       - catch()
+       - finally()
+
+   21.6 Promise Static Methods
+       - Promise.all()
+       - Promise.allSettled()
+       - Promise.race()
+       - Promise.any()
+       - Promise.resolve()
+       - Promise.reject()
+
+
+22. ASYNC / AWAIT
+   22.1 async Function
+   22.2 await
+   22.3 async/await with Promises
+   22.4 Error Handling with async/await
+   22.5 Sequential Async Operations
+   22.6 Parallel Async Operations
+
+
+23. FETCH API AND HTTP BASICS
+   23.1 What is an API?
+   23.2 What is HTTP?
+   23.3 Request
+   23.4 Response
+   23.5 HTTP Methods
+       - GET
+       - POST
+       - PUT
+       - PATCH
+       - DELETE
+
+   23.6 HTTP Headers
+   23.7 Request Body
+   23.8 JSON
+   23.9 fetch()
+   23.10 Handling Responses
+   23.11 HTTP Status Codes
+   23.12 API Error Handling
+   23.13 GET Request with Fetch
+   23.14 POST Request with Fetch
+   23.15 async/await with Fetch
+
+
+24. ES MODULES
+   24.1 What are Modules?
+   24.2 Why Modules?
+   24.3 export
+   24.4 import
+   24.5 Named Exports
+   24.6 Default Exports
+   24.7 Import Aliases
+   24.8 Module Scope
+   24.9 Dynamic Imports
+   24.10 ES Modules vs CommonJS
+
+
+25. CLASSES
+   25.1 What is a Class?
+   25.2 Class Syntax
+   25.3 Constructor
+   25.4 Properties
+   25.5 Methods
+   25.6 Creating Objects with new
+   25.7 Instance Methods
+   25.8 Static Methods
+   25.9 Static Properties
+   25.10 Getters
+   25.11 Setters
+   25.12 Private Fields
+   25.13 extends
+   25.14 super
+   25.15 Method Overriding
+
+
+26. OBJECT-ORIENTED PROGRAMMING
+   26.1 What is OOP?
+   26.2 Objects
+   26.3 Classes
+   26.4 Instances
+
+   26.5 Four Pillars of OOP
+       - Encapsulation
+       - Abstraction
+       - Inheritance
+       - Polymorphism
+
+   26.6 Composition vs Inheritance
+   26.7 Method Overriding
+   26.8 Public vs Private Members
+   26.9 Getters and Setters
+   26.10 Static Members
+   26.11 Real-World OOP Examples
+
+
+27. PROTOTYPES AND PROTOTYPE CHAIN
+   27.1 What is a Prototype?
+   27.2 Prototype Chain
+   27.3 __proto__
+   27.4 prototype Property
+   27.5 Constructor Functions
+   27.6 Object.prototype
+   27.7 Prototype Inheritance
+   27.8 Object.create()
+   27.9 Class vs Prototype
+   27.10 Property Lookup
+
+
+28. ADVANCED FUNCTION CONCEPTS
+   28.1 First-Class Functions
+   28.2 Higher-Order Functions
+   28.3 Closures
+   28.4 Currying
+   28.5 Partial Application
+   28.6 Function Composition
+   28.7 Pure Functions
+   28.8 Side Effects
+   28.9 Memoization
+   28.10 Generators
+   28.11 Iterators
+
+
+29. COLLECTIONS AND ADVANCED DATA TYPES
+   29.1 Map
+   29.2 Set
+   29.3 WeakMap
+   29.4 WeakSet
+   29.5 Symbol
+   29.6 BigInt
+   29.7 Iterable
+   29.8 Iterator
+
+
+30. MEMORY AND JAVASCRIPT INTERNALS
+   30.1 Primitive vs Reference
+   30.2 Stack vs Heap
+   30.3 Shallow Copy
+   30.4 Deep Copy
+   30.5 structuredClone()
+   30.6 Garbage Collection
+   30.7 Memory Management
+   30.8 Memory Leaks
+
+
+31. PRACTICAL JAVASCRIPT CONCEPTS
+   31.1 Debouncing
+   31.2 Throttling
+   31.3 Event Delegation
+   31.4 Immutability
+   31.5 Defensive Programming
+   31.6 Reusable Utility Functions
+   31.7 Functional Programming Basics
+   31.8 Clean JavaScript Patterns
+
+
+32. JAVASCRIPT PROJECTS
+   32.1 Counter Application
+       - Variables
+       - Functions
+       - DOM
+       - Events
+
+   32.2 Todo Application
+       - Arrays
+       - Objects
+       - DOM
+       - Events
+       - Local Storage
+
+   32.3 Quiz Application
+       - Arrays
+       - Objects
+       - Functions
+       - DOM
+       - Events
+
+   32.4 Weather Application
+       - Fetch API
+       - API
+       - Promises
+       - async/await
+
+   32.5 Expense Tracker
+       - Arrays
+       - Objects
+       - Local Storage
+       - DOM
+
+   32.6 CRUD Application
+       - REST API
+       - Fetch
+       - async/await
+       - Forms
+       - Error Handling
+
+   32.7 Authentication Dashboard
+       - API
+       - Login
+       - Token
+       - Cookies/Storage
+       - Modules
+       - OOP
+       - Error Handling

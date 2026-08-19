@@ -1,4 +1,7 @@
+// "use strict";
+
 console.log("Hello DOM JS")
+
 
 const obj = document.getElementById("title")
 console.log(obj)
@@ -31,9 +34,199 @@ function xyz() {
 xyz()
 
 if (true) {
-    
+
     // var num1 = 10
     // console.log(num1, 'Num1 Value')
 }
 
-    console.log(num1, 'Num1 Value')
+// console.log(num1, 'Num1 Value')
+
+
+// DOM EVENTS
+
+
+
+// const button = document.querySelector("button")
+
+// button.onclick=function(){
+//     console.log("Button Clicked1111")
+// }
+
+// button.onclick=function(){
+//     console.log("Button Clicked222222")
+// }
+
+
+const button = document.getElementById("clickBtn")
+button.addEventListener("click", handleClickBtn)
+
+
+function handleClickBtn() {
+    console.log("Button Clicked")
+    alert("Button Clicked")
+}
+
+
+
+const inputField = document.getElementById("inputField")
+
+console.log(inputField.value)
+
+inputField.addEventListener("change", handleInputChange)
+function handleInputChange() {
+    console.log('New wali change', inputField.value)
+}
+
+// console.log(animalName, 'Animal name')
+
+// console.log(animalName, 'Animal name')
+
+let animalName = "Dog"
+
+// console.log(animalName, 'Animal name')
+
+
+// Hoisting
+
+console.log(var1, 'Var1 Value')
+
+var var1 = 'data';
+
+console.log(var1, 'Var1 Value')
+
+// function hoisting
+
+
+
+
+
+
+function var1Func() {
+    console.log("Var1 Function Called")
+    var stdName = "Umair"
+    function innerFunc() {
+        console.log(stdName, 'Ye inner FUnction Call hua ha')
+    }
+
+    innerFunc()
+}
+
+
+var1Func()
+
+
+// Truthy and Falsy values
+
+let mobileName = "Oppo";
+
+if (!mobileName) {
+    console.log(mobileName, 'This is Mobile Name')
+}
+
+
+// condition ? expressionIfTrue : expressionIfFalse
+
+5 < 10 ? console.log("True statement 5 is greater")
+    : console.log("10 greater than 5 false case executed")
+
+
+//Template literals
+const gstd = "Hamza"
+
+const xyy = `${gstd} is a very 
+good student`
+
+console.log(xyy)
+
+const stdArray = ["Umair", "Zainab", "Nirmal", "ALi"]
+
+const zstdd = stdArray[1]
+console.log(zstdd + '===', stdArray)
+
+
+const [uStd, zstd, nstd, ...wholeStd] = stdArray
+
+console.log(uStd + "===" + zstd + "====" + nstd, wholeStd)
+
+// object destructure
+const employeObj = {
+    name: "Ameer Hamza",
+    address: "Lahore",
+    email: "ameerHamza@gmail.com"
+}
+
+const { name, address, ...bachi } = employeObj
+
+console.log(name, address, bachi)
+
+
+// type conversion
+
+const basket1 = "20"
+const basket2 = 10
+
+const resultOfBaskets = Number(basket1) - basket2
+
+console.log(resultOfBaskets, 'Result of baskets')
+
+
+// spread and rest operator
+
+const studArray = ["Umair", "Zainab", "Nirmal"]
+const excelentStudents = ["ALi", "Fahad"]
+
+const goodStudents = [...studArray, ...excelentStudents]
+
+console.log(goodStudents, 'Good studends')
+
+
+function restFunc(pram1, param2, ...params) {
+
+    console.log(pram1, param2, ...params)
+}
+
+restFunc(10, 20, 30, 40, 50, 60)
+
+
+const keyName = "Status"
+
+const userOld = {
+    name: "Ameer Hamza",
+    [keyName]: "Active",
+    obj: {
+        adress: {
+            greet() {
+                console.log("Hello Greet")
+                return
+            }
+        }
+    }
+}
+
+// userOld["Xyz"] = "Active"
+
+console.log(userOld)
+console.log(userOld?.obj?.address?.greet())
+
+
+// const prettyStudent = leftOperand ?? rightOperand
+
+const prettyStudent = userOld?.obj?.adress?.greet() ?? "Nirmal"
+
+
+console.log(prettyStudent + 'is a pretty Girl')
+
+// confirm("Hello I am browser Alert")
+
+
+setTimeout(() => {
+    alert("From setTimeOut")
+}, 5000);
+
+
+const intervalId = setInterval(() => {
+    console.log("Hello Set Interval")
+}, 2000)
+
+clearInterval(intervalId)
+console.log("After set time out console")
