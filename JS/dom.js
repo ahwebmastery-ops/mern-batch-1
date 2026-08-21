@@ -220,7 +220,7 @@ console.log(prettyStudent + 'is a pretty Girl')
 
 
 setTimeout(() => {
-    alert("From setTimeOut")
+    // alert("From setTimeOut")
 }, 5000);
 
 
@@ -230,3 +230,61 @@ const intervalId = setInterval(() => {
 
 clearInterval(intervalId)
 console.log("After set time out console")
+
+
+// local storage
+// key value paris name=value
+
+sessionStorage.setItem('name', 'Zainab Mirza')
+
+console.log(sessionStorage.getItem('name'), '=========')
+
+// local storage
+localStorage.setItem('name', 'Nirmal Baig')
+
+console.log(localStorage.getItem('name'), '========00000')
+
+localStorage.removeItem('name')
+
+console.log(localStorage.getItem('namee'), '========00000')
+
+// console.log(xyzzzzz)
+
+// if (true) {
+//     try {
+
+//     }
+//     catch {
+
+//     }
+//     finally{
+
+//     }
+// }   
+
+
+// code example 1
+console.log('first')
+console.log('second')
+
+setTimeout(() => {
+    console.log('This is MID')
+}, 20000);
+
+console.log('third')
+console.log('fourth')
+
+// Code example 2
+console.log("Loading page...");
+function heavyCalculation() {
+    for (let i = 0; i < 5000000000; i++) {
+    }
+    console.log("Calculation finished!");
+}
+heavyCalculation();
+
+// This line will be completely BLOCKED for 5 seconds
+console.log("Page is interactive!");
+
+
+
