@@ -281,10 +281,43 @@ function heavyCalculation() {
     }
     console.log("Calculation finished!");
 }
-heavyCalculation();
+// heavyCalculation();
 
 // This line will be completely BLOCKED for 5 seconds
 console.log("Page is interactive!");
+
+
+
+
+
+let promiseChecker = new Promise((resolve, reject) => {
+    // reject("Promise not handled correctly...")
+    resolve("Hello Umair Promise is resolved")
+})
+
+promiseChecker.then((res) => console.log(res, '============='))
+    .catch((error) => console.log(error))
+// .finally(() => alert("====="))
+
+
+// async await
+
+async function prinitStd() {
+    const result = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+    const convertedToJson = await result.json()
+    console.log(convertedToJson)
+
+        // .then(response => response.json())
+        // .then(json => console.log(json))
+
+    // await fetch('https://jsonplaceholder.typicode.com/todos/2')
+    //     .then(response => response.json())
+    //     .then(json => console.log(json))
+
+    return "Instrcutor Ameer Hamza"
+}
+
+console.log(prinitStd())
 
 
 

@@ -216,9 +216,6 @@ JAVASCRIPT MEDIUM-LEVEL ROADMAP
    5.9 Type Coercion
    5.10 == vs ===
    5.11 null vs undefined
-   5.12 NaN
-   5.13 Number.isNaN()
-   5.14 Object.is()
 
 
 6. CONTROL FLOW
@@ -288,7 +285,6 @@ JAVASCRIPT MEDIUM-LEVEL ROADMAP
    9.12 Lexical Environment
    9.13 Scope Chain
    9.14 Closures
-   9.15 Practical Uses of Closures
 
 
 10. THIS KEYWORD
@@ -531,12 +527,7 @@ JAVASCRIPT MEDIUM-LEVEL ROADMAP
    18.8 Web Storage
        - Local Storage
        - Session Storage
-
    18.9 Cookies
-   18.10 URL API
-   18.11 URLSearchParams
-   18.12 History API
-   18.13 FormData
 
 
 19. ERROR HANDLING
@@ -548,12 +539,8 @@ JAVASCRIPT MEDIUM-LEVEL ROADMAP
    19.6 catch
    19.7 finally
    19.8 throw
-   19.9 Custom Errors
-   19.10 Error Object
    19.11 TypeError
    19.12 ReferenceError
-   19.13 SyntaxError
-   19.14 Handling Asynchronous Errors
 
 
 20. ASYNCHRONOUS JAVASCRIPT
@@ -565,7 +552,6 @@ JAVASCRIPT MEDIUM-LEVEL ROADMAP
    20.6 Callback Queue
    20.7 Microtask Queue
    20.8 Event Loop
-
    20.9 Callbacks
    20.10 Callback Functions
    20.11 Callback Hell
@@ -587,14 +573,6 @@ JAVASCRIPT MEDIUM-LEVEL ROADMAP
        - then()
        - catch()
        - finally()
-
-   21.6 Promise Static Methods
-       - Promise.all()
-       - Promise.allSettled()
-       - Promise.race()
-       - Promise.any()
-       - Promise.resolve()
-       - Promise.reject()
 
 
 22. ASYNC / AWAIT
