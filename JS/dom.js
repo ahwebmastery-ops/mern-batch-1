@@ -307,8 +307,8 @@ async function prinitStd() {
     const convertedToJson = await result.json()
     console.log(convertedToJson)
 
-        // .then(response => response.json())
-        // .then(json => console.log(json))
+    // .then(response => response.json())
+    // .then(json => console.log(json))
 
     // await fetch('https://jsonplaceholder.typicode.com/todos/2')
     //     .then(response => response.json())
@@ -321,3 +321,61 @@ console.log(prinitStd())
 
 
 
+
+// OOP
+
+class StudentClass {
+    // properties
+    name = undefined;
+    age = undefined;
+    // methods funciton wala work
+    constructor(name, DOBYear) {
+        // this.name = "Ameer Hamza"
+        // console.log(name, 'Instcutor name and the age is', DOBYear)
+        this.age = DOBYear;
+        this.name = name
+    }
+
+    // gae calculator method
+    ageCalculator() {
+        const todayDate = new Date()
+        const currentYear = todayDate.getFullYear();
+        console.log(currentYear)
+        const result = currentYear - this.age
+        console.log(`Hey! ${this.name} you are ${result} years old`)
+    }
+}
+
+const stdClass = new StudentClass("Umair", "2001")
+stdClass.ageCalculator()
+console.log(stdClass.name, 'Class instance')
+
+
+// Pillars of OOP
+
+// Inheritance
+class Animal {
+    // Encapsulation
+    #balance = 300000
+    eat() {
+        console.log("Animal eating")
+        console.log(this.#balance)
+    }
+}
+
+class Dog extends Animal {
+    bark() {
+        console.log("BHAO BHAO BHAO")
+    }
+}
+
+const dogClass = new Dog()
+
+dogClass.bark()
+dogClass.eat()
+
+console.log(dogClass.balance, 'balance')
+
+
+const animalClass = new Animal()
+animalClass.eat()
