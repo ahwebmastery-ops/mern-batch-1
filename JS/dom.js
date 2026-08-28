@@ -364,18 +364,48 @@ class Animal {
 }
 
 class Dog extends Animal {
+    eat() {
+        console.log("Dog Eating Meat")
+    }
+
     bark() {
         console.log("BHAO BHAO BHAO")
     }
 }
 
 const dogClass = new Dog()
-
 dogClass.bark()
 dogClass.eat()
-
 console.log(dogClass.balance, 'balance')
-
 
 const animalClass = new Animal()
 animalClass.eat()
+
+
+
+// abstraction
+
+
+class CoffeMachine {
+    makeCoffe() {
+        console.log("Coffe bn rhi ha")
+        this.#boilWater()
+        this.#addingSugar()
+        console.log("Coffe is ready")
+    }
+
+    #boilWater() {
+        console.log("Water is boiling")
+    }
+
+    #addingSugar() {
+        console.log("Adding Sugar")
+    }
+}
+
+const coffeMaker = new CoffeMachine()
+
+coffeMaker.makeCoffe()
+
+
+
